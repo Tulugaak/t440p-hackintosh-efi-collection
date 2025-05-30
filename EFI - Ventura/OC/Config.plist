@@ -1157,6 +1157,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>AllowRelocationBlock</key>
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
@@ -2121,7 +2123,7 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array>
-			<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+			<string></string>
 		</array>
 		<key>Boot</key>
 		<dict>
@@ -2716,6 +2718,8 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>Unload</key>
+		<array/>
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
