@@ -6,6 +6,8 @@ There are two EFI folders for Sonoma, with the only difference between them bein
 
 The SMBIOS you generate will depend on the version you choose to install. My tool of choice is [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). If you are using Sonoma, generate an SMBIOS for MacBookPro16,1. If you are using Ventura, generate an SMBIOS for MacBookPro14,1. This is because the USB maps are for different SMBIOS's. If you want to use a different SMBIOS, you can modify the info.plist in USBMap.kext.
 
+Airportitlwm hasn't been released for macOS Sequoia yet, so there is no Sequoia EFI (yet).
+
 The SD card reader will not work as I haven't found a compatible kext
 
 Use [OCPL](https://github.com/dortania/OpenCore-Legacy-Patcher) to make your experience usable, as Sonoma and Ventura don't support Haswell igpus
